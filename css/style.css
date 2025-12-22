@@ -1,0 +1,237 @@
+/* Lesson 1 Exercises - CSS Basics*/
+
+/* Subscribe Button */
+.subscribe-button {
+    background-color: rgb(200,0,0);
+    border: none;
+    border-radius: 2px;
+    color: white;    
+    cursor: pointer;    
+    margin-right: 8px;
+    padding: 8px 16px; /* Top-Bottom Left-Right */
+    transition: opacity 0.15s;
+}
+
+/* Subscribe Button Hover Effect */
+.subscribe-button:hover {
+    /*background-color: rgb(255,0,0);*/
+    opacity: 0.8;
+}
+
+/* Subscribe Button Active Effect */
+.subscribe-button:active {
+    /*background-color: rgb(30, 0, 150);*/
+    opacity: 0.8;
+}
+
+/* Join Button */
+.join-button {
+    background-color: white;
+    border-color: rgb(6,95,212);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6,95,212); 
+    cursor: pointer;
+    padding: 7px 15px;
+    transition: background-color 0.15s, color 0.15s;    
+}
+
+/* Join Button Hover Effect */
+.join-button:hover {
+    background-color: rgb(41,118,211);
+    color: white;
+}
+
+/* Join Button Active Effect */
+.join-button:active {
+    opacity:0.8;
+}
+
+/* Twitter Button */
+.tweet-button {
+    background-color: rgb(2,158,255);
+    border: none;
+    border-radius: 18px;
+    color: white; 
+    cursor: pointer;
+    height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    width: 74px;
+    transition : box-shadow 0.15s;
+}   
+
+/* Twitter Button Hover Effect */
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15); /* Vertical Horizontal Blur Color */ 
+}
+
+/* Lesson 2 Exercises - CSS Basics*/
+
+/* Uber Button */
+.uber-btn {
+    background-color: black;
+    border: none;
+    color: white; 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    transition : opacity 0.85;
+}
+/* Uber Button Hover Effect */
+.uber-btn:hover {
+    opacity: 0.8;
+}
+
+/* Amazon Button */
+.amazon-btn {
+    border: none;
+    background-color: rgb(255,216,20);
+    border-radius: 18px;
+    color: black; 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: auto;
+    transition: background-color 0.15s;
+}
+
+/* Github Button */
+.github-btn {
+    background-color: rgb(46,164,79);
+    border-radius: 8px;
+    border: none;
+    color: white; 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+/* Bootstrap first button */
+.bsone-btn {
+    background-color: rgb(121,82,179);
+    border-radius: 8px;
+    border: none;
+    color: white; 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+/* Bootstrap second button */
+.bstwo-btn {
+    background-color: white;
+    border-radius: 8px;
+    border: solid(1px);
+    color: rgb(108,117,125); 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* LinkedIn first button */
+.linkone-btn {
+    background-color: rgb(10,102,194);
+    border-radius: 18px;
+    border: none;
+    color: white; 
+    height: 36px;
+    width: 200px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* LinkedIn second button */
+.linktwo-btn {
+    background-color: white;
+    border-color: rgb(10,102,194);
+    border-radius: 18px;
+    border: solid(1px);
+    color: rgb(10,102,194); 
+    height: 36px;
+    width: 90px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* Lesson 3 Exercises - CSS Basics*/    
+
+/* Link Back to Amazon */
+.back-btn {
+    color: rgb(10,102,194);
+    font-size: 24px;
+}
+
+/* Price paragraph */
+.price-btn {
+    color: rgb(0,118,0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Add to Cart Button */
+.add-to-cart-btn { 
+    background-color: rgb(255,216,20);
+    border: none;
+    border-radius: 18px;
+    color: black; 
+    height: 36px;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Buy Now Button */
+.buy-now-btn {
+    background-color: rgb(255,164,28);
+    border: none;
+    border-radius: 18px;
+    color: black; 
+    height: 36px;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+/* Text Video Style */
+.video-title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+/* Text Video Stats Style */
+.video-stats{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-top: 0px;
+}
+
